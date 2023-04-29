@@ -1,0 +1,18 @@
+#clockContainer {
+  margin: auto;
+  border: 2px solid red;
+  height: 80vh;
+  width: 80vw;
+  background: url(download.png) no-repeat;
+  background-position: center;
+}
+
+#hour, #minute, #second {
+  position: absolute;
+  background: black;
+  border-radius: 10px;
+}
+#hour {
+  width: 1%;
+  height: 30px;
+}
